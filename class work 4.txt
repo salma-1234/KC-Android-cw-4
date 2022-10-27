@@ -1,0 +1,76 @@
+
+        public static void main(String[] args) {
+        int term1 = 99;
+        int term2 = 98;
+        
+        totalGrade(term1,term2);
+    }
+    
+    public static void totalGrade(int num1 ,int num2){
+        int result = num1 + num2 ;
+        System.out.println(result);
+    }
+  
+
+
+****
+class HelloWorld {
+    public static void main(String[] args) {
+             int tem = 20;
+            System.out.println("tem<23");
+  
+       if(tem>=23)
+       System.out.println("hot");
+          
+          if(tem<23)
+          System.out.println("cold");
+           temperture(tem);
+    }
+          public static void temperture(int num1){
+  int tem = 20;
+            System.out.println("tem<23");
+  
+       if(tem>=23)
+       System.out.println("hot");
+          
+          if(tem<23)
+          System.out.println("cold");
+
+    }
+}
+
+
+output
+java -cp /tmp/XGMe9N0vnW HelloWorld
+tem<23
+cold
+tem<23
+cold
+
+*******
+بونص
+  public static void main(String[] args) {
+        for(int x=1;x<=10;x++){
+            System.out.println(x);
+    }
+}
+}
+
+
+
+
+
+
+
+output
+java -cp /tmp/cXrRIATMrH HelloWorld
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
